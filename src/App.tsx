@@ -1,6 +1,11 @@
-import { Button, ButtonGroup } from "@chakra-ui/react"
+import { Button, Stack } from "@chakra-ui/react";
+
 function App() {
- return <Button size={"xs"}>Click me</Button>
+  return (
+    <Stack align="start">
+      <Button>Click me</Button>
+    </Stack>
+  );
 }
 
-export default App
+export default App;
